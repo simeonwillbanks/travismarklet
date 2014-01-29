@@ -1,12 +1,10 @@
-# travisbookmarklet
+# travismarklet
 
 Inject Travis CI build status into a GitHub Pull Request.
 
 ## Installation
 
-Drag this bookmarklet to your browser's toolbar:
-
-[travisbookmarklet]()
+Coming soon.
 
 ## Contributing
 

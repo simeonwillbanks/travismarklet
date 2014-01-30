@@ -1,7 +1,7 @@
 (function ($) {
-  var TM = window._travismarklet;
-  TM.travis = {};
-  TM.gitHub = {};
+  var travismarklet = window._travismarklet;
+  travismarklet.travis = {};
+  travismarklet.gitHub = {};
 
   function getGitHubUrls(pullRequest) {
     return {
@@ -145,6 +145,8 @@
   };
 
   travismarklet.init = function () {
+    var TM = travismarklet;
+
     TM.gitHub.pullRequest = (TM.gitHub.pullRequest || getGitHubPullRequest());
     TM.gitHub.urls = (TM.gitHub.urls || getGitHubUrls(TM.gitHub.pullRequest));
 

@@ -1,5 +1,5 @@
 (function(){
-  var src = "https://raw.github.com/simeonwillbanks/travismarklet/master/buildStatus.js",
+  var src = 'https://raw.github.com/simeonwillbanks/travismarklet/master/buildStatus.js',
       travismarklet = window._travismarklet = (window._travismarklet || {});
 
   if (travismarklet.injected) {
